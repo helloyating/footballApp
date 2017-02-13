@@ -1,0 +1,94 @@
+<div class="m-home">
+   <header>
+        <ul>
+            <li><i class="yo-ico">&#xe745;</i></li>
+            <li>
+                <p>
+                    <span class="active">热点</span><span class="hot">关注</span>
+                </p>
+            </li>
+            <li><i class="yo-ico">&#xe684;</i></li>
+        </ul>
+    </header>
+    <div class="home-section">
+        <div class="swiper-container" id="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <nav>
+                   <ul>
+                       <li class="active">足球生活</li>
+                       <li>足球美女</li>
+                       <li>足球现场</li>
+                   </ul>
+                </nav>
+                <div class="section-content">
+                  <div class="swiper-container" id="swiper-main">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="home-scroll" id="home-scroll">
+                             <div>
+                                 <ul ng-repeat="item in data">
+                                     <li>
+                                         <img ng-src="{{item.img}}" alt=""/>
+                                         <span>{{item.title}}</span>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                         <img src="/footballSNS/images/img2.jpg" alt=""/>
+                                         <span>红尘走马 步步相随</span>
+                                     </li>
+                                 </ul>
+                                 <ul>
+                                     <li>
+                                         <img src="/footballSNS/images/img3.jpg" alt=""/>
+                                         <span>我陪你走的路 你不能忘</span>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                         <img src="/footballSNS/images/img4.jpg" alt=""/>
+                                         <span>因为那是我最快乐的时光</span>
+                                     </li>
+                                 </ul>
+
+                                 <ul>
+                                     <li>
+                                         <img src="/footballSNS/images/img1.jpg" alt=""/>
+                                         <span>最美不过少年时</span>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                         <img src="/footballSNS/images/img1.jpg" alt=""/>
+                                         <span>红尘走马 步步相随</span>
+                                     </li>
+                                 </ul>
+                                 <ul>
+                                     <li>
+                                         <img src="/footballSNS/images/img1.jpg" alt=""/>
+                                         <span>我陪你走的路 你不能忘</span>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                         <img src="/footballSNS/images/img1.jpg" alt=""/>
+                                         <span>因为那是我最快乐的时光</span>
+                                     </li>
+                                 </ul>
+                             </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        2
+                      </div>
+                      <div class="swiper-slide">
+                        3
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                关注......
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+angular.module("myApp")
+.config(["$stateProvider","$urlRouterProvider",function($stateProvider,$urlRouterProvider){
+        $urlRouterProvider
+            .otherwise("guide");
+        $stateProvider
+            .state("guide",{
+                url:"/guide",
+                templateUrl:"./src/scripts/tpls/guide.string",
+                controller:"guideCtrl"
+            })
+            .state("index",{
+                url:"/index",
+                templateUrl:"./src/scripts/tpls/index.string"
+            })
+            .state("index.home",{
+                url:"/home",
+                templateUrl:"./src/scripts/tpls/home.string",
+                controller:"homeCtrl"
+            })
+            .state("index.found",{
+                url:"/found",
+                templateUrl:"./src/scripts/tpls/found.string"
+            })
+            .state("index.photo",{
+                url:"/photo",
+                templateUrl:"./src/scripts/tpls/photo.string"
+            })
+            .state("index.my",{
+                url:"/my",
+                templateUrl:"./src/scripts/tpls/my.string"
+            })
+            .state("index.exit",{
+                url:"/exit",
+                templateUrl:"./src/scripts/tpls/exit.string"
+            })
+    }]);

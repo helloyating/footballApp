@@ -1,0 +1,11 @@
+//require ("lib/angular.js");
+//alert(1);
+require("./lib/angular.min.js");
+require("./lib/angular-ui-router.min.js");
+require("./lib/swiper.min.js");
+require("./lib/zepto.min.js");
+require("./lib/iscroll5.js");
+require("./usage/views/app.js");
+require("./usage/views/_config.js");
+require("./usage/views/controller.js");
+require("./usage/views/service.js");
